@@ -1,0 +1,15 @@
+# https://www.chezmoi.io/user-guide/include-files-from-elsewhere/#include-a-subdirectory-from-a-git-repository
+[".config/zsh"]
+  type = "git-repo"
+  url = "https://github.com/EphraimSiegfried/zsh"
+  refreshPeriod = "168h"
+
+[".config/nvim"]
+  type = "git-repo"
+  url = "https://github.com/EphraimSiegfried/nvim"
+  refreshPeriod = "168h"
+
+[".config/tmux"]
+  type = "git-repo"
+  url = "https://github.com/EphraimSiegfried/tmux"
+  refreshPeriod = "168h"
